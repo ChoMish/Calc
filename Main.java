@@ -1,5 +1,5 @@
 public class Main  {
-    public static String main(String input) throws Exception {
+    public static String calc(String input) throws Exception {
             String[] variableSplit = input.split(" ");
             if (variableSplit.length <3) {
                 throw new Exception("т.к. строка не является математической операцией");
